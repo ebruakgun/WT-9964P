@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar fixed-top navbar-light shadow-sm">
+    <nav class="navbar fixed-top bg-white shadow-sm">
       <div class="container py-2">
         <a class="fw-bold text-decoration-none text-warning" href="#"
           >Candy Crush Saga</a
@@ -50,39 +50,53 @@
         </div>
       </div>
     </nav>
-    <!-- header -->
-    <header class="mt-5">
+    <!-- hero section -->
+    <header class="mt-5 bg-light">
       <div class="container pt-5">
         <div class="row pt-5 align-items-center">
-          <div class="col-6">
-            <h1 class="display-1 mb-3">Play the sweetest game...</h1>
+          <div class="col-lg-7">
+            <h1 class="display-1 mb-3">Play the sweetest <br/>game...</h1>
             <p class="align-items-center">
               Play Candy Crush Saga and switch and match your way through
-              hundreds of levels in this divine puzzle adventure. Join Tiffi and
+              hundreds of levels in this divine puzzle adventure. <br/>Join Tiffi and
               Mr. Toffee on their epic journey in an online game full of
               delicious treats! <br />Ain't it the sweetest game ever?
             </p>
-            <img
-              src="/img/google-play-badge.svg"
-              alt="google play download"
-              width="120"
-              class="m-2"
-            />
-            <img
-              src="/img/app-store-badge.svg"
-              alt="app store download"
-              width="120"
-              class="m-2"
-            />
+            <div class="row">
+              <div class="col-auto">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.king.candycrushsaga&referrer=af_tranid%3DtTl6-gK2ojC8GTsN39N3VA%26c%3DkingWeb%26pid%3Dking-media"
+                >
+                  <img
+                    src="/img/google-play-badge.svg"
+                    alt="google play download"
+                    width="120"
+                    class="m-2"
+                  />
+                </a>
+              </div>
+              <div class="col-auto">
+                <a
+                  href="https://apps.apple.com/us/app/candy-crush-saga/id553834731?mt=8"
+                >
+                  <img
+                    src="/img/app-store-badge.svg"
+                    alt="app store download"
+                    width="120"
+                    class="m-2"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="col-6 align-items-center">
-            <img
-              class="pb-5"
-              src="https://buffer.com/library/content/images/2023/10/free-images.jpg"
-              alt="photo"
-              width="600"
-              height="400"
-            />
+          <div class="col-lg-5 align-items-center">
+          <div class="circle text-center">
+          <div class="img-phone-1">
+          <img src="" alt="">
+
+          </div>
+
+          </div>
           </div>
         </div>
       </div>
@@ -127,35 +141,58 @@
         </div>
       </div>
     </section>
-    <!-- start-stop section  -->
-    <section class="bg-gradient-primary-to-secondary" id="download">
-        <div class="video-container">
-          <video controls muted src="https://www.king.com/videos/king-header-video-website-version-opt.mp4?_v=9ufs2x">
-         </video>
+    <!-- video-section -->
+    <section class="bg-gradient-primary-to-secondary">
+      <div id="video">
+        <video
+          class="video-1"
+          controls
+          src="https://www.king.com/videos/king-header-video-website-version-opt.mp4?_v=9ufs2x"
+        ></video>
+        <div class="overlay">
+          <p class="display-1 text-white fst-italic">
+            Let's Make <br />the World <br />
+            Playful!
+          </p>
+          <a href="https://www.king.com/">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-5 py-3 fw-bold mt-5"
+            >
+              Play Now
+            </button>
+          </a>
         </div>
-  </section>
+      </div>
+    </section>
     <!-- app-download-section-->
-    <section class="panel mt-5">
+    <section class="panel mt-0">
       <div class="p-4 bg-info bg-opacity-10 border-start-0">
         <div class="p-3">
           <div class="text-center text-white p-3">
-            <h2 class="fw-bold">
-              "Get the app now!"
-            </h2>
+            <h2 class="fw-bold">"Get the app now!"</h2>
           </div>
           <div class="align-items-center text-center">
-            <img
-            src="/img/google-play-badge.svg"
-            alt="google play download"
-            width="120"
-            class="m-2"
-          />
-          <img
-            src="/img/app-store-badge.svg"
-            alt="app store download"
-            width="120"
-            class="m-2"
-          />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.king.candycrushsaga&referrer=af_tranid%3DtTl6-gK2ojC8GTsN39N3VA%26c%3DkingWeb%26pid%3Dking-media"
+            >
+              <img
+                src="/img/google-play-badge.svg"
+                alt="google play download"
+                width="120"
+                class="m-2"
+              />
+            </a>
+            <a
+              href="https://apps.apple.com/us/app/candy-crush-saga/id553834731?mt=8"
+            >
+              <img
+                src="/img/app-store-badge.svg"
+                alt="app store download"
+                width="120"
+                class="m-2"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -164,11 +201,17 @@
     <footer class="text-center bg-black py-5">
       <div class="text-white-50">
         © Your Website 2023. All Rights Reserved.
-        <div> 
-        <a  class="text-decoration-none text-white-50" href="">&middot; Privacy</a>
-        <a  class="text-decoration-none text-white-50 px-1" href="">&middot; Terms</a>
-        <a  class="text-decoration-none text-white-50 px-1" href="">&middot; FAQ</a>
-      </div>
+        <div>
+          <a class="text-decoration-none text-white-50" href=""
+            >&middot; Privacy</a
+          >
+          <a class="text-decoration-none text-white-50 px-1" href=""
+            >&middot; Terms</a
+          >
+          <a class="text-decoration-none text-white-50 px-1" href=""
+            >&middot; FAQ</a
+          >
+        </div>
       </div>
     </footer>
     <script

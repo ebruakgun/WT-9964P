@@ -1,7 +1,36 @@
 body
 
+
+.circle{
+    content: "";
+    width: 375px;
+    height: 375px;
+    border-radius: 500px;
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 .panel{
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+
+#video{
+    position: relative;
+    z-index: -1;
+}
+.video-1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
 }
 
    
