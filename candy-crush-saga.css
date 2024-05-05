@@ -12,10 +12,76 @@ body
     justify-content: center;
     position: relative;
 }
+.img-phone-1{
+max-width: 46%;
+}
+
+.circle::before{
+content: "x";
+position: absolute;
+font-weight: bolder;
+transform: rotate(-45deg);
+color: #2937f0;
+fill: #2937f0;
+bottom: 0%;
+left: 0%;
+}
+
+.circle::after{
+    content: "*";
+    position: absolute;
+    font-weight: bolder;
+    font-size: 15px;
+    transform: rotate(90deg);
+    color: #2937f0;
+    fill: #2937f0;
+    right: 0%;
+    top: 0%;
+    }
+
 .panel{
     background: linear-gradient(45deg, #2937f0, #9f1ae2);
 }
+.circle-b{
+    content: "";
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    background: linear-gradient(45deg, #2937f0, #9f1ae2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.img-phone-2{
+    max-width: 100%;
+    margin-left: 55px;
+    }
+
+    .circle-b::before{
+        content: "*";
+        position: absolute;
+        font-weight: bolder;
+        transform: rotate(-45deg);
+        color: #2937f0;
+        fill: #2937f0;
+        bottom: 0%;
+        left: 0%;
+        }
+        
+        .circle-b::after{
+            content: "x";
+            position: absolute;
+            font-weight: bolder;
+            font-size: 15px;
+            transform: rotate(45deg);
+            color: #2937f0;
+            fill: #2937f0;
+            right: 0%;
+            top: 0%;
+            margin-right: -50px;
+            }
 #video{
     position: relative;
     z-index: -1;
