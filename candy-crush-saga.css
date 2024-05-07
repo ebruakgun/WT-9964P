@@ -1,5 +1,6 @@
-body
-
+body{
+    box-sizing: border-box;
+}
 
 .circle{
     content: "";
@@ -82,6 +83,21 @@ left: 0%;
             top: 0%;
             margin-right: -50px;
             }
+.saga{
+ color: #9f1ae2;
+ font-size: 4rem;
+}
+.circle-3{
+    content:"";
+    width: 516px;
+    height: 516px;
+    border-radius: 500px;
+    background: linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
 #video{
     position: relative;
     z-index: -1;
@@ -98,5 +114,6 @@ left: 0%;
     left:0;
     z-index:1;
 }
-
-   
+.text-muted{
+    font-size: 1.25rem;
+}
