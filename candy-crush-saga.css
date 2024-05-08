@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .circle{
@@ -99,11 +104,12 @@ left: 0%;
 
 #video{
     position: relative;
+   line-height: 0;
 }
 .video-1{
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .overlay {
@@ -131,9 +137,30 @@ text-align: center;
 }
 .special-button{
     border: none;
-    background-color: rgb(193, 65, 19);
+    background: transparent linear-gradient(180deg,#ffbe00,#ff6a00 52%,#fb418a) 0 0 no-repeat padding-box;
     padding: 30px 60px;
     text-align: center;
     font-size: 18px;
     margin: 4px 2px;
   }
+    .btn-grad {
+        background-image: linear-gradient(to right, #e64848da 0%, #e4732d  51%, #f09a0f  100%);
+        margin: 10px;
+        margin-left: 70px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+
+      .btn-grad:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+      }
+  
