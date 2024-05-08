@@ -92,7 +92,6 @@ left: 0%;
     width: 516px;
     height: 516px;
     border-radius: 500px;
-    background: linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
     margin-top: 50px;
     margin-bottom: 50px;
     align-items: center;
@@ -100,7 +99,6 @@ left: 0%;
 
 #video{
     position: relative;
-    z-index: -1;
 }
 .video-1{
     position: relative;
@@ -117,3 +115,25 @@ left: 0%;
 .text-muted{
     font-size: 1.25rem;
 }
+
+.
+.display-1{
+text-align: center;
+}
+
+.content{
+    position: absolute;
+    text-align: center;
+    color: purple;
+}
+.lol{
+    background-color: pink;
+}
+.special-button{
+    border: none;
+    background-color: rgb(193, 65, 19);
+    padding: 30px 60px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+  }
