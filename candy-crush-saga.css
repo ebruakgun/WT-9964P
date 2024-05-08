@@ -121,12 +121,6 @@ left: 0%;
 .text-muted{
     font-size: 1.25rem;
 }
-
-.
-.display-1{
-text-align: center;
-}
-
 .content{
     position: absolute;
     text-align: center;
@@ -163,4 +157,9 @@ text-align: center;
         color: #fff;
         text-decoration: none;
       }
-  
+  @media (min-width: 992px){
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+  }
