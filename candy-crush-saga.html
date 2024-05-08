@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>King.com-Play the Most Popular & Fun Games Online!</title>
-    <link rel="stylesheet" href="/candy-crush-saga.css" />
+    <link rel="stylesheet" href="candy-crush-saga.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,20 +22,42 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm" id="mainNav">
       <div class="container py-2">
         <a class="fw-bold text-decoration-none text-warning" href="#"
           >Candy Crush Saga
         </a>
-        <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-            <li class="nav-item"> <a class="nav-link me-lg-3 fw-bold text-danger text-decoration-none" href="#features">Features</a></li>
-            <li class="nav-item"> <a class="nav-link me-lg-3 fw-bold text-primary text-decoration-none" href="https://www.king.com/games" target="_blank">
-              All Games
-            </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          Menu
+          <i class="bi-list"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link me-lg-3 fw-bold text-danger text-decoration-none"
+                href="#features"
+                >Features</a
+              >
             </li>
-      </ul>
-        <!-- modal button-->
-        <div>
+            <li class="nav-item">
+              <a
+                class="nav-link me-lg-3 fw-bold text-primary text-decoration-none"
+                href="https://www.king.com/games"
+                target="_blank"
+              >
+                All Games
+              </a>
+            </li>
+          </ul>
+          <!-- modal button-->
           <button
             type="button"
             class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
@@ -66,7 +88,7 @@
                 <a
                   href="https://play.google.com/store/apps/details?id=com.king.candycrushsaga&referrer=af_tranid%3DtTl6-gK2ojC8GTsN39N3VA%26c%3DkingWeb%26pid%3Dking-media"
                 >
-                  <img 
+                  <img
                     src="/img/google-play-badge.svg"
                     alt="google play download"
                     width="120"
@@ -105,7 +127,7 @@
     <!-- divider-section-->
     <section>
       <div class="row pt-5 bg-light">
-      <div class="panel">
+        <div class="panel">
           <div class="text-center text-white p-5">
             <h3 class="fw-bold">
               "Get ready, in the Kingdom you’ll find the best games to play in
@@ -115,11 +137,11 @@
           <div class="align-items-center text-center">
             <img src="/img/kingLogoRebrand.svg" alt="king" height="100" />
           </div>
+        </div>
       </div>
-    </div>
     </section>
     <!--Our Games section-->
-    <section id="features"> 
+    <section id="features">
       <div class="container pt-5 pb-5">
         <div class="row pt-5 pb-5">
           <div class="col-lg-4 d-flex justify-content-centre pt-5 pb-5">
@@ -216,7 +238,8 @@
             <a href="https://www.king.com/game/candycrush" target="_blank">
               <button
                 type="button"
-                class="special-button rounded-pill text-white fst-italic">
+                class="special-button rounded-pill text-white fst-italic"
+              >
                 Play Now
               </button>
             </a>
@@ -229,22 +252,28 @@
       <div class="lol">
         <div class="row">
           <div class="col-lg-9">
-            <img class="img-fluid"
+            <img
+              class="img-fluid"
               src="https://www.king.com/images/gamePromotion/King_Yeti_Tiffi__MrToffee_Party_Desktop.webp?_v=18robd2"
               alt="img"
             />
           </div>
           <div class="col-lg-3 text-center align-items-center">
             <h2
-              class="fw-bolder p-5 text-start fst-italic mt-5 text-danger fs-2 align-items-center text-center">
+              class="fw-bolder p-5 text-start fst-italic mt-5 text-danger fs-2 align-items-center text-center"
+            >
               Play the <br />
               Sweetest Game
             </h2>
-              <a href="https://www.king.com/game/candycrush" class="text-decoration-none" target="_blank">
-                <button class="btn-grad px-5 py-3 fw-bold rounded-5">
-                  Play Now
-                </button>
-                </a>
+            <a
+              href="https://www.king.com/game/candycrush"
+              class="text-decoration-none"
+              target="_blank"
+            >
+              <button class="btn-grad px-5 py-3 fw-bold rounded-5">
+                Play Now
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -257,7 +286,8 @@
             <h2 class="fw-bold">"Get the app now!"</h2>
           </div>
           <div class="align-items-center text-center">
-            <a class="text-decoration-none"
+            <a
+              class="text-decoration-none"
               href="https://play.google.com/store/apps/details?id=com.king.candycrushsaga&referrer=af_tranid%3DtTl6-gK2ojC8GTsN39N3VA%26c%3DkingWeb%26pid%3Dking-media"
             >
               <img
@@ -300,62 +330,86 @@
     </footer>
     <!-- modal section -->
     <form action="">
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header panel text-white pt-4 pb-4>
-          <h1 class="modal-title fs-5" id="exampleModalLabel">
-            Send Feedback
-          </h1>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close">
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="form-floating mb-3">
-            <input type="name" class="form-control" id="floatingname" placeholder="name" required>
-            <label for="floatingname">Full name</label>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header panel text-white pt-4 pb-4>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Send Feedback
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input
+                type="name"
+                class="form-control"
+                id="floatingname"
+                placeholder="name"
+                required
+              />
+              <label for="floatingname">Full name</label>
 
-          <div class="form-floating mb-3 mt-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-            <label for="floatingInput">Email address</label>
+              <div class="form-floating mb-3 mt-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                id="floatintel"
+                placeholder="tel"
+                required
+              />
+              <label for="floatingtel">Phone Number</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control"
+                placeholder="Message"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2">Message</label>
+            </div>
           </div>
-         
-          </div>
-          <div class="form-floating mb-3">
-            <input type="tel" class="form-control" id="floatintel" placeholder="tel" required>
-            <label for="floatingtel">Phone Number</label>
-          </div>
-          <div class="form-floating mb-3">
-            <textarea class="form-control" placeholder="Message" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Message</label>
-          </div>
-        </div>
-<!-- Modal footer -->
+          <!-- Modal footer -->
           <div class="d-grid mb-3 p-3">
-            <button class="btn panel fw-bolder rounded-pill py-3 text-white" type="submit">Submit</button>
-          </div>
+            <button
+              class="btn panel fw-bolder rounded-pill py-3 text-white"
+              type="submit">
+              Submit
+            </button>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</form>
+    </form>
     <!-- Bootstrap core JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous">
-    </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-    </script>
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/candy-crush-saga.js" type="text/javascript"></script>
   </body>
 </html>
